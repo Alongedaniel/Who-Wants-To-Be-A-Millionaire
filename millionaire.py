@@ -34,7 +34,7 @@ for question in questions:
         question_count += 1
         money += 100000
     if question == questions[3]  or question == questions[7]:
-        print("If you get next question wrong you lose $100,000")
+        print("If you get next question wrong you lose $200,000")
     elif ((question == questions[4]) and (answer != question.answers)) or ((question == questions[8]) and (answer != question.answers)):
         money -= 200000
         print(money)
